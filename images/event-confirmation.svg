@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>8BC6B13D-74B4-467B-8C1F-1320050D8FED</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M50,25 C50,38.8075 38.8075,50 25,50 C11.1925,50 0,38.8075 0,25 C0,11.19375 11.1925,0 25,0 C38.8075,0 50,11.19375 50,25" id="path-1"></path>
+    </defs>
+    <g id="02-society-event-lifecycle-final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20161215-Society-CreateEvent-D-22" transform="translate(-615.000000, -254.000000)">
+            <g id="Group-13" transform="translate(398.000000, 214.000000)">
+                <g id="EventConfirmation" transform="translate(217.000000, 40.000000)">
+                    <path d="M50,25 C50,38.8075 38.8075,50 25,50 C11.1925,50 0,38.8075 0,25 C0,11.19375 11.1925,0 25,0 C38.8075,0 50,11.19375 50,25" id="Fill-1" fill="#05D5A8"></path>
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#24D4A9" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)">
+                            <g transform="translate(8.333333, 13.333333)">
+                                <polygon id="Stroke-9" stroke="#2D3A41" stroke-width="1" fill="none" points="32.7884744 8.62928713 -2.53765263e-15 8.62928713 -2.53765263e-15 4.01544402 32.7884744 4.01544402"></polygon>
+                                <polygon id="Fill-8" stroke="none" fill="#2D3A41" fill-rule="evenodd" points="32.7884744 8.502732 -2.53765263e-15 8.502732 -2.53765263e-15 3.88888889 32.7884744 3.88888889"></polygon>
+                                <g id="fills" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 8.731697)">
+                                    <polygon id="Fill-5" fill="#FDFDFE" points="11.1560048 9.31602818 0.357257483 9.31602818 0.357257483 0.197034863 11.1560048 0.197034863"></polygon>
+                                    <polygon id="Fill-10" fill="#FDFDFE" points="21.9531823 9.31602818 11.154435 9.31602818 11.154435 0.197034863 21.9531823 0.197034863"></polygon>
+                                    <polygon id="Fill-12" fill="#FDFDFE" points="32.7519295 9.31602818 21.9531823 9.31602818 21.9531823 0.197034863 32.7519295 0.197034863"></polygon>
+                                    <polygon id="Fill-14" fill="#FDFDFE" points="11.1560048 18.4350215 0.357257483 18.4350215 0.357257483 9.31602818 11.1560048 9.31602818"></polygon>
+                                    <polygon id="Fill-16" fill="#FDFDFE" points="21.9531823 18.4350215 11.154435 18.4350215 11.154435 9.31602818 21.9531823 9.31602818"></polygon>
+                                    <polygon id="Fill-18" fill="#FDFDFE" points="32.7519295 18.4350215 21.9531823 18.4350215 21.9531823 9.31602818 32.7519295 9.31602818"></polygon>
+                                    <polygon id="Fill-20" fill="#FDFDFE" points="11.1560048 27.5523214 0.357257483 27.5523214 0.357257483 18.4333281 11.1560048 18.4333281"></polygon>
+                                    <polygon id="Fill-22" fill="#FDFDFE" points="21.9531823 27.5523214 11.154435 27.5523214 11.154435 18.4333281 21.9531823 18.4333281"></polygon>
+                                    <polygon id="Fill-24" fill="#FDFDFE" points="32.7519295 27.5523214 21.9531823 27.5523214 21.9531823 18.4333281 32.7519295 18.4333281"></polygon>
+                                </g>
+                                <g id="strokes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 8.030888)">
+                                    <polygon id="Stroke-7" stroke="#ECEFF2" points="11.1560048 10.0168368 0.357257483 10.0168368 0.357257483 0.897843488 11.1560048 0.897843488"></polygon>
+                                    <polygon id="Stroke-15" stroke="#ECEFF2" points="11.1560048 19.1358301 0.357257483 19.1358301 0.357257483 10.0168368 11.1560048 10.0168368"></polygon>
+                                    <polygon id="Stroke-21" stroke="#ECEFF2" points="11.1560048 28.25313 0.357257483 28.25313 0.357257483 19.1341367 11.1560048 19.1341367"></polygon>
+                                    <polygon id="Stroke-23" stroke="#ECEFF2" points="21.9531823 28.25313 11.154435 28.25313 11.154435 19.1341367 21.9531823 19.1341367"></polygon>
+                                    <polygon id="Stroke-13" stroke="#ECEFF2" points="32.7519295 10.0168368 21.9531823 10.0168368 21.9531823 0.897843488 32.7519295 0.897843488"></polygon>
+                                    <polygon id="Stroke-17" stroke="#ECEFF2" points="21.9531823 19.1358301 11.154435 19.1358301 11.154435 10.0168368 21.9531823 10.0168368"></polygon>
+                                    <polygon id="Stroke-25" stroke="#ECEFF2" points="32.7519295 28.25313 21.9531823 28.25313 21.9531823 19.1341367 32.7519295 19.1341367"></polygon>
+                                    <polygon id="Stroke-11" stroke="#ECEFF2" points="21.9531823 10.0168368 11.154435 10.0168368 11.154435 0.897843488 21.9531823 0.897843488"></polygon>
+                                    <polygon id="Stroke-19" stroke="#ECEFF2" points="32.7519295 19.1358301 21.9531823 19.1358301 21.9531823 10.0168368 32.7519295 10.0168368"></polygon>
+                                    <rect id="Rectangle" stroke="#2D3A41" x="0" y="0" width="32.7848424" height="29.1119691"></rect>
+                                </g>
+                                <polygon id="Fill-26" stroke="none" fill="#99B3B7" fill-rule="evenodd" points="11.286749 5.93281853 7.46245967 5.93281853 7.46245967 0.163800735 11.286749 0.163800735"></polygon>
+                                <polygon id="Stroke-27" stroke="#2D3A41" stroke-width="1" fill="none" points="11.286749 5.93281853 7.46245967 5.93281853 7.46245967 0.163800735 11.286749 0.163800735"></polygon>
+                                <polygon id="Fill-28" stroke="none" fill="#99B3B7" fill-rule="evenodd" points="26.0405297 5.93281853 22.2162404 5.93281853 22.2162404 0.163800735 26.0405297 0.163800735"></polygon>
+                                <polygon id="Stroke-29" stroke="#2D3A41" stroke-width="1" fill="none" points="26.0405297 5.93281853 22.2162404 5.93281853 22.2162404 0.163800735 26.0405297 0.163800735"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-14" mask="url(#mask-2)">
+                            <g transform="translate(16.666667, 28.333333)">
+                                <path d="M16.6666667,8.33333333 C16.6666667,12.9353333 12.9353333,16.6666667 8.33333333,16.6666667 C3.73133333,16.6666667 0,12.9353333 0,8.33333333 C0,3.73133333 3.73133333,0 8.33333333,0 C12.9353333,0 16.6666667,3.73133333 16.6666667,8.33333333" id="Fill-8" stroke="#2D3A41" stroke-width="1" fill="#FFDF00"></path>
+                                <path d="M11.7591022,5.68255636 L6.66017257,10.777461 L4.91812975,8.90042371 C4.75929263,8.72938673 4.48746164,8.71440538 4.30989982,8.86858836 C4.13233801,9.02277133 4.11813306,9.28556904 4.27697018,9.45723024 L6.32700204,11.6669781 C6.4064206,11.7531209 6.51941448,11.8030587 6.63886516,11.8055556 L6.64725899,11.8055556 C6.76412695,11.8055556 6.87582947,11.7593631 6.95718507,11.6782142 L12.3789544,6.26245912 C12.5442483,6.09641592 12.5397285,5.832994 12.3686235,5.6725688 C12.1981642,5.51339204 11.9250418,5.51651315 11.7591022,5.68255636" id="Fill-10" stroke="none" fill="#2D3A41"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

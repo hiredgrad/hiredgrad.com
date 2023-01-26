@@ -1,0 +1,120 @@
+/**
+ * Tagator jQuery Plugin
+ * A plugin to make input elements, tag holders
+ * version 1.0, Jan 13th, 2014
+ * by Ingi P. Jacobsen
+ */
+
+/* reset */
+.tagator * {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-decoration: none;
+}
+
+/* dimmer */
+#tagator_dimmer {
+	background-color: rgba(0,0,0,.1);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+/* Main box */
+.tagator {
+	background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1.5px solid transparent !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+    font-size: 16pt !important;
+    color: #aac6cc !important;
+}
+.tagator.options-visible {
+	position: relative;
+	z-index: 101;
+}
+
+/* chosen items holder */
+.tagator_tags {
+	display: inline;
+	position: absolute;
+    top: 60px;
+}
+
+/* chosen item */
+.tagator_tag {
+	display: inline-block;
+	background-color: #45585f;
+	color: #9eb1b8;
+	padding: 5px 20px 5px 10px;
+	font-size: 14pt;
+	margin: 2px;
+	position: relative;
+	vertical-align: top;
+	line-height: inherit;
+}
+
+/* chosen item remove button */
+.tagator_tag_remove {
+	display: inline-block;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    font-size: 10pt;
+}
+.tagator_tag_remove:hover {
+	/*color: #000;
+	background-color: #8cf;*/
+}
+
+/* input box */
+.tagator_input,
+.tagator_textlength {
+	border: 0;
+	display: inline-block;
+	margin: 0;
+	background-color: transparent;
+	font-size: 16pt;
+	outline: none;
+	padding: 4px 0 0 5px;
+	color: #aac6cc !important;
+}
+.tagator_input {
+	/*padding: 0px 0px;*/
+	width:100% !important;
+}
+
+/* options holder */
+.tagator_options {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #415053;
+	border-radius: 0 0 3px 3px;
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	z-index: 101;
+	background-color: #1f282d;
+	list-style: none;
+	left: -1px;
+	right: -1px;
+	color:#a4b7bd;
+	width:100%;
+	font-size:12pt;
+}
+.tagator.options-hidden .tagator_options {
+	display: none;
+}
+
+/* result item */
+.tagator_option {
+	padding: 10px;
+	cursor: pointer;
+	color: #a4b7bd;
+}
+.tagator_option.active {
+	background-color: #6b7e85;
+	color: #bfd2d8;
+}

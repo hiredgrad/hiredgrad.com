@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="13px" viewBox="0 0 28 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>A5436876-7D0B-4BA9-90B0-34107C15C050</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="6" cy="6" r="6"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="access-control" stroke="#2D3A41">
+            <g>
+                <use id="Oval-4" mask="url(#mask-2)" stroke-width="3" xlink:href="#path-1"></use>
+                <path d="M12.5,5.75 L26.5,5.75" id="Line" stroke-width="1.5"></path>
+                <path d="M22.75,6.5 L22.75,11.5" id="Line" stroke-width="1.5"></path>
+                <path d="M18.75,6.5 L18.75,10.5" id="Line-Copy" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

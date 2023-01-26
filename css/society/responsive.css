@@ -1,0 +1,388 @@
+@media (max-width: 991px) {
+  /*-------landing page----*/
+  .banner-text {
+    padding: 40px 20px;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .hide-max-sm {
+    display: none !important;
+  }
+  .navbar-collapse.hide-max-sm {
+    display: none !important;
+  }
+  .intro-message {
+    padding: 60px 20px;
+  }
+  .intro-main-message {
+    padding: 0 25px;
+  }
+  .student-left {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 50px 0 0;
+  }
+  .student-right {
+    position: relative;
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  .student-left-content {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .student-left h4 {
+    font-size: 21px;
+    line-height: 1.4;
+    margin: 30px 0 0 0;
+    text-align: center;
+  }
+  .student-left h6 {
+    color: #77a6b5;
+  }
+  .student-right {
+    padding: 0 20px 20px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  .student-message {
+    font-size: 18px;
+    line-height: 1.4;
+    padding-bottom: 30px;
+  }
+  .student-right h4 {
+    padding-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 1.2px;
+  }
+  .btn-find-society {
+    margin: 0 auto;
+  }
+  .company-employers {
+    background-color: #f5f9ff;
+    padding: 30px;
+  }
+  .company-right {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+    text-align: center;
+  }
+  .company-left {
+    float: none;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding: 0;
+    text-align: center;
+  }
+  .company-left:before {
+    content: none;
+  }
+  .btn-find-employers {
+    margin: 0 auto;
+  }
+  .company-right h4 {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  .company-right h6 {
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.8px;
+    color: #77a6b5;
+  }
+  .company-message {
+    font-size: 18px;
+    line-height: 1.4;
+    padding-bottom: 25px;
+  }
+  .find-out-text {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .job-seekers {
+    background-color: #dae7ea;
+    padding: 40px 20px;
+  }
+  .job-seeker-left {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 0;
+    text-align: center;
+  }
+  .job-seeker-right {
+    float: none;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+  }
+  .job-seeker-right:before {
+    content: none;
+  }
+  .job-seeker-left img {
+    padding-bottom: 20px;
+  }
+  .job-seeker-text {
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  .job-seeker-left-content h6 {
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.8px;
+    color: #77a6b5;
+  }
+  .job-seeker-right-message {
+    font-size: 18px;
+    line-height: 1.4;
+    padding-bottom: 25px;
+  }
+  .event-signup-side {
+    margin: 0 auto;
+  }
+  .signup-col {
+    border-right: 0;
+  }
+  .can_oppor {
+    overflow-x: scroll !important;
+  }
+  .show-max-sm {
+    display: block;
+  }
+  .mobile-navbar.open {
+    left: 0;
+  }
+  .soc-nav-header {
+    float: none !important;
+  }
+  .soc-nav-logo {
+    float: none;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+  }
+  .soc-nav-logo img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  /*--landing page-----*/
+  .navbar-default {
+    padding: 0;
+  }
+  .main-navbar .app-toggle-button {
+    margin-left: 10px;
+  }
+  .mobile-links {
+    display: block;
+  }
+  .footer-nav:after,
+  .footer-nav:before {
+    content: '';
+    display: table;
+  }
+  .footer-nav:after {
+    clear: both;
+  }
+  .footer-nav > li {
+    display: block;
+    width: 50%;
+    float: left;
+    border-right: 0;
+    border-bottom: 1px solid #64797c;
+    padding: 0 0 5px 0;
+    margin-bottom: 5px;
+  }
+  .footer-nav > li:nth-child(odd) > a {
+    border-right: 1px solid #fff;
+  }
+  .footer-nav > li > a {
+    padding: 10px 0;
+  }
+  .footer-social-list {
+    margin-top: 25px;
+  }
+  .copy-right {
+    padding-top: 25px;
+  }
+  .banner {
+    padding: 180px 0 150px 0;
+  }
+  .logo {
+    width: 220px;
+  }
+  .banner-text {
+    padding: 20px;
+    margin: 0
+  }
+  .scroll-down-btn {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    padding-top: 30px;
+  }
+  .app-toggle-button {
+    display: block;
+  }
+  .nav-logo {
+    float: none;
+    display: block;
+    margin: 0;
+  }
+  .nav-logo img {
+    display: block;
+    margin: 0 auto;
+  }
+  .career-check-list > li {
+    display: block;
+    width: 100%;
+    float: none;
+  }
+  .view-companies-banner {
+    padding-top: 30px;
+  }
+  .companies-list > li {
+    float: none!important;
+    width: 100% !important;
+  }
+  .company-item {
+    width: 80%;
+    height: auto;
+  }
+  .external-link {
+    width: 20%;
+  }
+  .schedule-event-banner {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .account-details {
+    padding: 40px 0;
+  }
+  .edit-account-details {
+    padding-top: 30px;
+  }
+  .event-item {
+    margin-bottom: 20px;
+  }
+  .event-item-details,
+  .event-item-address,
+  .event-item-time {
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: left !important;
+    border: 0;
+  }
+  .event-item-address, .event-item-time {
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  .btn-view-event {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+  }
+  .event-wraper .container {
+    padding: 0;
+  }
+  .action-text {
+    float: none;
+    margin: 0 auto;
+  }
+  .btn-attend-event {
+    float: none;
+    margin: 20px auto 0;
+  }
+  .event-signup-wraper {
+    padding: 40px 0;
+  }
+  .register-as-company {
+    margin-top: 50px;
+  }
+  .join-now-wraper {
+    padding-top: 30px;
+  }
+  .intro-wraper {
+    padding-top: 30px;
+  }
+  .intro-divider {
+    margin: 30px auto;
+  }
+  .intro-content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .intro-content .btn {
+    float: none;
+    margin: 0 auto 15px;
+  }
+  .company-intro,
+  .society-intro,
+  .job-seeker-intro {
+    background-position: bottom center;
+    background-size: 50%;
+  }
+  .help-message {
+    padding: 60px 20px;
+  }
+  .help-main {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+  .profile-nav-list {
+    float: none;
+  }
+  .profile-nav-list > li {
+    display: block;
+    text-align: center;
+  }
+  .get-on-board-content .btn {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .society-list > li {
+    width: 50%;
+  }
+  .company-list > li {
+    width: 50%;
+  }
+}
+@media (max-width: 420px) {
+  .footer-nav > li > a {
+    font-size: 12px;
+  }
+  .student-left-img {
+    width: 100%;
+  }
+  .banner-text {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+  .company-intro,
+  .society-intro,
+  .job-seeker-intro {
+    background-size: 80%;
+  }
+}

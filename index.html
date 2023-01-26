@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html ng-app="common">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="http://hiredgrad.com/img/fb_share.png" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:title" content="HiredGrad - your shortcut to dream job!" />
+    <meta property="og:description" content="We connect students and graduates with company insiders for job opportunities. It's a bureaucracy-free way to get a dream job at a fast growing startup! You don't even need to send a cover letter (we know you hate it)." />
+    <meta name="google-site-verification" content="eCvPOf8jdiahpXonyoIIvRm8FGxqBt8kzjYY9zy9jhg" />
+    <meta name="keywords" content="Startup Jobs,International Jobs,Jobs in London,Startup Jobs in London,International Internships,Marketing Jobs in London,IT jobs in London,Sales Jobs in London,Business Development Jobs in London,Jobs abroad">
+    <!--<link rel="image_src" href="http://hiredgrad.com/img/fb_share.png" />-->
+    <title>HiredGrad</title>
+    <link rel="icon" type="img/png" sizes="32x32" href="img/favicon.ico">
+    <link href="app/bower_components/bootstrap-dialog/bootstrap-dialog/dist/css/bootstrap-dialog.css">
+    <link rel="stylesheet" href="css/society/fonts.css" >
+    <link rel="stylesheet" href="css/society/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/society/font-awesome.min.css" >
+    <link rel="stylesheet" href="css/society/animate.css">
+    <link rel="stylesheet" href="css/society/main.css" >
+    <link rel="stylesheet" href="css/society/app.css" >
+    <link rel="stylesheet" href="css/society/responsive.css" >
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/analytics.js"></script>
+
+  <style>
+      #top-popup {
+        background-color: rgba(20,20,20,0.8);
+        min-height: 26px;
+        font-size: 14px;
+        color: #ccc;
+        line-height: 26px;
+        padding: 20px 0 20px 30px;
+        /* padding: 20px 0 0 30px; */
+        font-family: 'Source Sans Pro', sans-serif;
+        position: fixed;
+        /* bottom: 0; */
+        top:0;
+        left: 0;
+        right: 0;
+        /* display: none; */
+        z-index: 9999;
+    }
+    #top-popup a {
+        color: #24d4a9;
+        text-decoration: none;
+    }
+    #top-popup a.to-popup-ok:hover {
+    background-color: #24d4a9!important;
+    }
+    #close-top-popup {
+        float: right;
+        display: inline-block;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin: 0px 10px 0 0;
+        font-weight: bold;
+    }
+    #close-top-popup:hover {
+        color: #FFF;
+    }
+    #top-popup a.to-popup-ok {
+        background-color: #24d4a9;
+        color: #ffffff;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 0 20px;
+        cursor: pointer;
+        float: right;
+        margin: 0 60px 0 10px;
+    }
+    .cookie-row{
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .top-popup-content{
+      text-align: center;
+      margin-bottom: 0px!important;
+      margin-top: 0px!important;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .cookie-row {
+          float: left;
+      }
+
+      .student-left-content{
+        margin-top: 40px;
+      }
+
+      .company-right-content{
+        margin-top: 40px;
+      }
+      
+    }
+  </style>
+
+
+  </head>
+  <body ng-controller="signInController">
+    <div id="fb-root"></div>
+    <script> (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <section class="banner">
+      <br>
+      <br>
+      <div class="logo wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"><img src="images/h-g-logo@3x.png" alt="hiredgrad-logo" /></div>
+      <div class="banner-text wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
+        A whole new way of graduate recruiting. Truly.
+      </div>
+      <div class="scroll-down-btn wow fadeIn" data-wow-duration="2s" data-wow-delay="3s">
+        FIND OUT MORE
+        <div class="wow bounce" data-wow-duration="2s" data-wow-delay="4s"><img src="images/scroll-more-icon@3x.png" alt="" /></div>
+      </div>
+    </section>
+
+    <section class="intro-message">
+      <div class="line"></div>
+      <h4 class="intro-main-message">
+        We match our network of top, fast growing companies with the most established student societies of Europe and India, to find the right candidate for the right job.
+      </h4>
+      <div class="line"></div>
+      <h6 class="intro-sub-message">This is targeted, effective recruiting. This is recruiting reimagined.</h4>
+    </section>
+
+    <section class="student-society">
+      <div class="student-left">
+        <div class="student-left-content">
+          <img src="images/home-society-icon@3x.png" alt="" />
+          <h4 class="student-text">STUDENT SOCIETIES</h4>
+          <h6>HARNESSING THE POWER</h6>
+        </div>
+      </div>
+      <div class="student-right">
+        <div class="student-right-content">
+          <h6 class="student-message">
+            We help you grow, and provide incredible career value to your members, by connecting you with top, fast-growing companies that are typically hard to reach.
+          </h6>
+          <h4>SOME OF OUR STUDENT SOCIETY PARTNERS</h4>
+          <ul class="society-list">
+            <li><a href="http://www.cen.life/" target="_blank"><img src="images/society/Cass Entrepreneurs.png" alt="" /></a></li>
+            <li><a href="http://www.cutec.org/" target="_blank"><img src="images/society/CUTEC.png" alt="" /></a></li>
+            <li><a href="http://oxfordentrepreneurs.co.uk/" target="_blank"><img src="images/society/Oxford Entrepreneurs.png" alt="" /></a></li>
+            <li><a href="http://wwwf.imperial.ac.uk/business-school/programmes/career-service/career-clubs/pevc-club/" target="_blank"><img src="images/society/Imperial PE & VC Club o.png" alt="" /></a></li>
+            <li><a href="http://lsefinancesociety.com/" target="_blank"><img src="images/society/LSE SU Business & Finance Group.png" alt="" /></a></li>
+            <li><a href="http://uclis.co.uk/" target="_blank"><img src="images/society/UCLU Investment Society R 80.png" alt="" /></a></li>
+            <!-- <li><img src="images/society/QM postgraduate Law Society-grayscale.jpg" alt="" /></li>
+            <li><a href=""><img src="images/society/UCLU Business Society-grayscale.jpg" alt="" /></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="company-employers">
+      <div class="company-right">
+        <div class="company-right-content">
+          <img src="images/home-company-icon-copy-3@3x.png" alt="" />
+          <h4 class="student-text">COMPANIES & EMPLOYERS</h4>
+          <h6>GET THE BEST TALENT, FAST</h6>
+        </div>
+      </div>
+      <div class="company-left">
+        <div class="company-right-content">
+          <h6 class="company-message">
+            Find the best candidates, by forming deep campus connections with the top universities of Europe and India. Do this quickly and with minimum red tape.
+          </h6>
+          <h4>SOME COMPANIES IN OUR NETWORK</h4>
+          <ul class="company-list">
+            <li><a href="https://www.fundapps.co/" target="_blank"><img src="images/company/FundApps o.png" alt="" /></a></li>
+            <li><a href="http://seedcamp.com/" target="_blank"><img src="images/company/Seedcamp.png" alt="" /></a></li>
+            <li><a href="https://www.lostmy.name/" target="_blank"><img src="images/company/Lost My Name o.png" alt="" /></a></li>
+            <li><a href="http://www.lmarks.com" target="_blank"><img src="images/company/l-marks-logo-blue.png" alt="" /></a></li>
+            <li><a href="https://www.justpark.com/" target="_blank"><img src="images/company/JustPark.png" alt="" /></a></li>
+            <li><a href="https://revolut.com/" target="_blank"><img src="images/company/Revolut.png" alt="" /></a></li>
+            <!-- <li><img src="images/company/Startupbootcamp-grayscale.png" alt="" /></li>
+            <li><img src="images/company/Viagogo-grayscale.png" alt="" /></li> -->
+          </ul>
+          <!-- <h6 class="find-out-text">Learn more about how HiredGrad helps you find and recruit top graduate talent.</h6> -->
+          <!-- <a href="./company" class="btn btn-find-employers">FOR EMPLOYERS</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="job-seekers" >
+        <div class="job-seeker-left">
+          <div class="job-seeker-left-content">
+            <img src="images/home-job-seeker-icon@3x.png" alt="">
+            <h4 class="job-seeker-text">JOB SEEKERS</h4>
+            <h6>FAST TRACK YOUR JOB HUNT</h6>
+          </div>
+        </div>
+        <div class="job-seeker-right">
+          <div class="job-seeker-right-content">
+            <div class="job-seeker-right-message">
+              Hone in on your dream job by becoming part of an exclusive network used by top, fast-growing companies and student societies, to find the right candidate for the right job.
+            </div>
+            <!-- <a href="./landing-jobseeker.html" class="btn btn-find-employers">FOR JOB SEEKERS</a> -->
+          </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonial-icon">
+          <img src="images/home-testimonial-icon@3x.png" alt="" />
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial-item">
+              <div class="testimonial-message">
+                “As one of UCL's largest careers societies, sourcing companies for original events targeting a specific student demographic has never been the simplest of tasks. HiredGrad has the potential to revolutionise student recruitment.”
+              </div>
+              <div class="testimonial-user">
+                <span class="user-name"><b>ANDREW KOLOSOV</b></span>
+                <span class="user-designation">Chairman 2015/2016 <br/> UCLU BUSINESS SOCIETY</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="testimonial-item">
+              <div class="testimonial-message">
+                "The events and the easy to use platform have helped me to find opportunities at startups not regularly advertised on campus – the cherry on the top was securing a job in just a couple of weeks.”
+              </div>
+              <div class="testimonial-user">
+                <span class="user-name"><b>TABITHA TAY</b></span>
+                <span class="user-designation">Junior Project Manager <br/> PATIENTS KNOW BEST</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="testimonial-item">
+              <div class="testimonial-message">
+                “For startups and other innovation ecosystem organizations, HiredGrad's traction at top-tier UK universities makes it easy to reach promising candidates. They've helped us find great employees for our accelerator staff at Startupbootcamp.”
+              </div>
+              <div class="testimonial-user">
+                <span class="user-name"><b>MATTHEW EISNER</b></span>
+                <span class="user-designation">Global Marketing Manager </br> STARTUPBOOTCAMP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="container-fluid">
+          <div class="container c-container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="c-f-item">
+                  <i><img src="images/mail-msg.svg" alt=""/></i>
+                  <h4>CONTACT US</h4>
+                  <p>hello@hiredgrad.com</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="c-f-item">
+                  <i><img src="images/location-marker.svg" alt=""/></i>
+                  <h4>HEAD OFFICE</h4>
+                  <p>
+                    32 High Street, 3 Courtyard Studios <br />
+                    Northwood, London HA6 1BN
+                  </p>
+                  <p>+44 (0) 77 304 273 75</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="c-f-item">
+                  <i><img src="images/location-marker.svg" alt=""/></i>
+                  <h4>INDIA OFFICE</h4>
+                  <p>
+                    Spacelance, No. 39, 2nd Floor,<br/>
+                    Suite # 192, NGEF Lane,<br/>
+                    Indiranagar 1st Stage, Bengaluru - 560 038
+                  </p>
+                  <p>+91 (0) 995 995 7785</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="copy-right">
+            <p>
+              Copyright 2015-<script>document.write(new Date().getFullYear())</script>. UWAVE Ltd or its affiliates. All rights reserved.
+            </p>
+            <ul class="footer-social-list">
+              <li>
+                <a href="https://www.facebook.com/hiredgrad/" target="_blank"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/hiredgrad" target="_blank"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCilPEp3Y4Vpw4mIzcXw_nzA"
+                  target="_blank"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/hiredgrad" target="_blank"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/hiredgrad/" target="_blank"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/society/jquery.js"></script>
+    <script type="text/javascript" src="js/society/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/society/app.js"></script>
+    <script src="js/society/wow.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="app/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="app/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="app/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="app/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="app/bower_components/agn/dist/agn.min.js"></script>
+    <script src="app/bower_components/ui.bootstrap/custom/ui-bootstrap-custom-0.13.3.min.js"></script>
+    <script src="app/bower_components/ui.bootstrap/custom/ui-bootstrap-custom-tpls-0.13.3.min.js"></script>
+    <script src="app/bower_components/bootstrap-dialog/dist/js/bootstrap-dialog.js"></script>
+
+    <!-- hiredgrad scripts-->
+    <script src="app/common/common.js"></script>
+    <script src="app/common/commonDirectives.js"></script>
+    <script type="text/javascript" src="js/society/app.js"></script>
+
+    <script>
+      new WOW().init();
+      $(document).ready(function(){
+          $("#close-top-popup, .to-popup-ok").click(function() {
+             document.getElementById("top-popup").remove();
+          });
+      });
+    </script>
+    
+  </body>
+</html>

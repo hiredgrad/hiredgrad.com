@@ -1,0 +1,44 @@
+
+.hideEditor .tagator_input{
+	display: none;
+}
+
+.events_date button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+}
+
+.hide_element{
+	display: none;
+}
+
+.show_element{
+	display: block;
+}
+
+.disable_opt_remove .tagator_tag_remove{
+	display: none;
+}
+
+
+.toggle-switch .switch-on {
+    left: -60%
+}
+
+.toggle-switch .switch-off {
+	left: 0%
+}
+.areasOfInterest .modal-content{
+	border-radius: 0px !important;
+	margin: 2% auto;
+	padding: 50px;
+}
+
+.trash_25_25{
+	width: 25px;
+	height: 25px;
+}
+.perk_selected {
+	font-weight: bold;
+}

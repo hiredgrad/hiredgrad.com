@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>457DAF88-4CE7-47DC-8ED0-84978DFFB615</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="pending-invite" stroke="#89969C">
+            <g transform="translate(0.096491, 0.000000)">
+                <use id="Oval" mask="url(#mask-2)" stroke-width="2" fill="#ECEFF2" xlink:href="#path-1"></use>
+                <polyline id="Path-3" points="7.96028769 3.4699344 7.96028769 8.07861871 10.7889933 9.84809527"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
